@@ -3,7 +3,7 @@
 ################################################################################
 variable "cluster_name" {
   type    = string
-  default = "dominion-cluster"
+  default = "tdw-cluster"
 }
 
 ################################################################################
@@ -13,11 +13,13 @@ variable "cluster_name" {
 variable "vpc_id" {
   description = "VPC ID which EKS cluster is deployed in"
   type        = string
+  # default     = "vpc-03f2dbbcdfadabdb3"
 }
 
 variable "private_subnets" {
   description = "VPC Private Subnets which EKS cluster is deployed in"
   type        = list(any)
+  # default = [ "subnet-040de6219e9432362", "subnet-01f19b9eda439a9b3", "subnet-0854fbf3730708b04"  ]
 }
 
 ################################################################################

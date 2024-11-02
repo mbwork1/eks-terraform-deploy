@@ -15,12 +15,12 @@ variable "main-region" {
 
 variable "cluster_name" {
   type    = string
-  default = "dominion-cluster"
+  default = "tdw-cluster"
 }
 
 variable "rolearn" {
   description = "Add admin role to the aws-auth configmap"
-  default     = "arn:aws:iam::322266404742:role/terraform-create-role"
+  default     = "arn:aws:iam::654654193818:role/terraform-admin-role"
 }
 
 ################################################################################
