@@ -41,7 +41,7 @@ pipeline {
                 }
         stage ('5. Email Notification') {
             steps {
-               echo 'Success'
+               echo 'Success 4 TDW'
                //mail bcc: 'tdwaws2024@gmail.com', body: '''Terraform deployment is completed.
                //Let me know if the changes look okay.
                //Thanks,
