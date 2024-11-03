@@ -46,8 +46,7 @@ pipeline {
                Let me know if the changes look okay.
                Thanks,
                TDW Technologies,
-               +1 (313) 413-1477''', cc: 'tdwaws2024@gmail.com', from: '', replyTo: '', subject: 'Terraform Infra deployment completed!!!', to: 'tdwaws2024@gmail.com'
-                          
+               +1 (313) 413-1477''', cc: 'tdwaws2024@gmail.com', from: '', replyTo: '', subject: 'Terraform Infra deployment completed!!!', to: 'tdwaws2024@gmail.com'             
                } 
           }
      }       
