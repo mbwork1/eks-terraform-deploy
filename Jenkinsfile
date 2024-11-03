@@ -1,5 +1,5 @@
 pipeline {
-    agent { node { label 'terraform-node' } } 
+    agent { node { label 'TERRAFORM' } } 
     parameters {
                 choice(name: 'Deployment_Type', choices:['apply','destroy'],description:'The deployment type')
                   }
